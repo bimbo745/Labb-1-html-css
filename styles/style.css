@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+  min-width: 980px;
+}
+
+body {
+  height: 100%;
+  background-image: linear-gradient(to bottom, White, Linen);
+  background-repeat: no-repeat;
+}
+
+header {
+  color: Tan;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+header > a {
+  margin-left: 3%;
+
+}
+
+article {
+  background-color: white;
+  width: 60%;
+  margin: 0% 5% 0% 5%;
+  float: left;
+}
+
+aside {
+  width:20%;
+  margin: 0% 5% 0% 5%;
+  float: right;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 5px;
+}
+
+#objektlista {
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+}
+
+.listobjekt {
+  border-color: gray;
+   border-style: solid;
+   border-width: 1px;
+   padding: 5px;
+}
+
+.logga {
+  vertical-align: middle;
+}
