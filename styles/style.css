@@ -1,27 +1,53 @@
 html {
-  height: 100%;
-  min-width: 980px;
+  min-width: 980px;  /* sidan skalas inte under denna sidbredd */
+  margin: 0;
+  border 0;
 }
 
 body {
-  height: 100%;
-  background-image: linear-gradient(to bottom, White, Linen);
-  background-repeat: no-repeat;
-}
-
-header {
-  color: Tan;
+  background-color: white;
   font-family: Arial;
-  font-size: 18px;
 }
 
-header > a {
-  margin-left: 3%;
 
+#header-logga {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+#header-logga > img {
+  vertical-align: middle;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  width: 25%;
+  border-style: solid;
+  border-width: 0.5px; 
+  border-color: gray;
+}
+
+td a {
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+
+#aktuell-sida a {
+  color: limegreen;
+  font-weight: bold;
 }
 
 article {
-  background-color: white;
   width: 60%;
   margin: 0% 5% 0% 5%;
   float: left;
@@ -33,27 +59,29 @@ aside {
   float: right;
 }
 
-table, th, td {
-  border: 1px solid black;
-}
 
-th, td {
-  padding: 5px;
-}
-
-#objektlista {
-  border-style: solid;
-  border-width: 2px;
-  border-color: gray;
+#objektlista img {
+  float: left;
+  margin-right: 10px;
 }
 
 .listobjekt {
+  overflow: auto;
   border-color: gray;
-   border-style: solid;
-   border-width: 1px;
-   padding: 5px;
+  border-style: solid;
+  border-width: 0.75px;
+  margin: 10px;
 }
 
-.logga {
-  vertical-align: middle;
+.objekttext {
+ overflow: auto;
+
+}
+
+.listobjekt p {
+  font-family: "Georgia";
+}
+
+h3 {
+  margin: 10px;
 }
