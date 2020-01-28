@@ -33,6 +33,10 @@ td {
   border-color: gray;
 }
 
+td:hover {
+  background: honeydew;
+}
+
 td a {
   font-size: 22px;
   text-decoration: none;
@@ -65,6 +69,20 @@ aside {
   margin-right: 10px;
 }
 
+#objektlista {
+  display: block;
+}
+
+#objektlista a {
+  text-decoration: none;
+  color: black;
+}
+
+.listobjekt:hover {
+  border-color: limegreen;
+  background-color: honeydew;
+}
+
 .listobjekt {
   overflow: auto;
   border-color: gray;
@@ -75,7 +93,6 @@ aside {
 
 .objekttext {
  overflow: auto;
-
 }
 
 .listobjekt p {
